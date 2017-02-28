@@ -67,6 +67,8 @@ include('../errors/error.php');
 }
 else{
 add_category($categoryName);
+header("Location: .?action=list_categories");
+
 }
 }
 ?>
