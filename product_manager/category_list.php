@@ -14,7 +14,7 @@
 	 <input type="hidden" name="action"
 	  value="delete_category">
 	 <input type="hidden" name="category_id"
-	  value="<?php echo $product['categoryID']; ?>">
+	  value="<?php echo $categoryID['categoryID']; ?>">
 	 <input type="submit" value="Delete">
 	 </form></td>
 	 </tr>
